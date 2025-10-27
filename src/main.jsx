@@ -6,7 +6,8 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    {/* 👇 Use basename to tell React Router your repo name */}
+    <BrowserRouter basename="/saxophonehub">
       <App />
     </BrowserRouter>
   </StrictMode>
