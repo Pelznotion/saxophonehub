@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/saxophonehub/", // 👈 this fixes the blank page issue
+  base: "/saxophonehub/", // 👈 VERY IMPORTANT for GitHub Pages
 });
