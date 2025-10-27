@@ -4,11 +4,11 @@ import { ToastContainer } from "react-toastify";
 
 import Header from "./components/Header";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Register from "./components/Register";
-import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -29,6 +29,7 @@ const App = () => {
               <Projects />
               <Testimonials />
               <Contact />
+              <Footer />
               <Footer />
             </>
           }
