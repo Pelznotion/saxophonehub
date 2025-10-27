@@ -1,7 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
 
-const Footer = () => {
+const Down = () => {
   return (
     <div
       className="pt-10 px-4 md:px-20 lg:px-32 bg-black w-full overflow-hidden"
@@ -62,4 +62,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Down;
