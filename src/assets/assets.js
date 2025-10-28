@@ -14,7 +14,7 @@ import left_arrow from "./left_arrow.svg";
 import right_arrow from "./right_arrow.svg";
 import header_img from "./header_img.png";
 import brand_img from "./brand_img.png";
-import jerry from "./jerry.png";
+import jerry from "./Jerry.png";
 import raji from "./raji.png";
 import josw from "./josw.png";
 import josw1 from "./josw1.png";
