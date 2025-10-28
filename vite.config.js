@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/saxophonehub/", // 👈 VERY IMPORTANT for GitHub Pages
+  base: "/", // ✅ Use root for Vercel
 });
